@@ -62,9 +62,10 @@
                 android:background="#313131"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView">
+                app:layout_constraintTop_toBottomOf="@+id/textView"
+                app:layout_constraintVertical_bias="0.0">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -107,7 +108,7 @@
                                 android:layout_marginTop="@dimen/text_size"
                                 android:fontFamily="@string/regular"
                                 android:gravity="center"
-                                android:text="Computer Science"
+                                android:text="Computer Department"
                                 android:textColor="@color/textColor"
                                 android:textSize="@dimen/text_size2"
                                 app:layout_constraintEnd_toEndOf="parent"
@@ -129,7 +130,7 @@
                                 android:layout_marginTop="@dimen/text_size"
                                 android:fontFamily="@string/regular"
                                 android:gravity="center"
-                                android:text="Computer Science"
+                                android:text="Mechanical Department"
                                 android:textColor="@color/textColor"
                                 android:textSize="@dimen/text_size2"
                                 app:layout_constraintEnd_toEndOf="parent"
@@ -151,7 +152,7 @@
                                 android:layout_marginTop="@dimen/text_size"
                                 android:fontFamily="@string/regular"
                                 android:gravity="center"
-                                android:text="Computer Science"
+                                android:text="Electrical Department"
                                 android:textColor="@color/textColor"
                                 android:textSize="@dimen/text_size2"
                                 app:layout_constraintEnd_toEndOf="parent"
@@ -173,7 +174,7 @@
                                 android:layout_marginTop="@dimen/text_size"
                                 android:fontFamily="@string/regular"
                                 android:gravity="center"
-                                android:text="Computer Science"
+                                android:text="Civil Department"
                                 android:textColor="@color/textColor"
                                 android:textSize="@dimen/text_size2"
                                 app:layout_constraintEnd_toEndOf="parent"
@@ -188,7 +189,6 @@
 
 
             </LinearLayout>
-
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -236,6 +236,14 @@
                     android:text="0253 245 1547"
                     android:textColor="@color/textColor"
                     android:textSize="@dimen/text_size2" />
+
+
+                <ImageView
+                    android:id="@+id/map"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/img"/>
+
 
             </LinearLayout>
 
