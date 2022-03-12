@@ -20,7 +20,8 @@
             android:textColor="@color/textColor"
             android:textSize="18sp"
             app:layout_constraintBottom_toBottomOf="@+id/circleImageView"
-            app:layout_constraintEnd_toStartOf="@+id/deleteNotice1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.098"
             app:layout_constraintStart_toEndOf="@+id/circleImageView"
             app:layout_constraintTop_toTopOf="@+id/circleImageView" />
 
@@ -31,16 +32,6 @@
             android:src="@drawable/profile"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
-
-        <com.google.android.material.button.MaterialButton
-            android:id="@+id/deleteNotice1"
-            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Delete"
-            app:layout_constraintBottom_toBottomOf="@+id/textView5"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="@+id/textView5" />
 
         <TextView
             android:id="@+id/deleteNoticeTitle"
@@ -54,6 +45,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/circleImageView" />
 
+
         <ImageView
             android:id="@+id/deleteNoticeImage"
             android:layout_width="match_parent"
@@ -63,6 +55,69 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/deleteNoticeTitle" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toTopOf="@+id/deleteNoticeTitle"
+            app:layout_constraintStart_toStartOf="@+id/textView5"
+            app:layout_constraintTop_toBottomOf="@+id/textView5">
+
+            <TextView
+                android:id="@+id/dasdfte"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:fontFamily="@string/light"
+                android:text="Date: "
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/text_size01"
+                app:layout_constraintBottom_toTopOf="@+id/deleteNoticeTitle"
+                app:layout_constraintStart_toStartOf="@+id/textView5"
+                app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+            <TextView
+                android:id="@+id/date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:fontFamily="@string/light"
+                android:text="15 feb 2021 "
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/text_size01"
+                app:layout_constraintBottom_toTopOf="@+id/deleteNoticeTitle"
+                app:layout_constraintStart_toStartOf="@+id/textView5"
+                app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+            <TextView
+                android:id="@+id/textViewss4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:fontFamily="@string/light"
+                android:text="Time: "
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/text_size01"
+                app:layout_constraintBottom_toTopOf="@+id/deleteNoticeTitle"
+                app:layout_constraintStart_toStartOf="@+id/textView5"
+                app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+            <TextView
+                android:id="@+id/time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:fontFamily="@string/light"
+                android:text="12:00 "
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/text_size01"
+                app:layout_constraintBottom_toTopOf="@+id/deleteNoticeTitle"
+                app:layout_constraintStart_toStartOf="@+id/textView5"
+                app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+
+        </LinearLayout>
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
