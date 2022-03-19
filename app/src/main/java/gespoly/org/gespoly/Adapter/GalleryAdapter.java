@@ -50,7 +50,7 @@ public class GalleryAdapter extends RecyclerView.Adapter<GalleryAdapter.GalleryV
                 Intent intent = new Intent(context, zoomed.class);
                 intent.putExtra("i1", images.get(position));
                 context.startActivity(intent);
-
+//comment
 
             }
         });
