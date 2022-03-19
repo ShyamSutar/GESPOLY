@@ -52,7 +52,6 @@ public class GalleryAdapter extends RecyclerView.Adapter<GalleryAdapter.GalleryV
                 context.startActivity(intent);
 
 
-
             }
         });
 
