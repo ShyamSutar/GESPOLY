@@ -6,9 +6,10 @@
         <entry key="..\:/AndroidStudioProjects/GESPOLY/app/src/main/res/drawable/bg_overlay.xml" value="0.301" />
         <entry key="..\:/AndroidStudioProjects/GESPOLY/app/src/main/res/layout/activity_main.xml" value="0.36102564102564105" />
         <entry key="..\:/AndroidStudioProjects/GESPOLY/app/src/main/res/layout/activity_zoomed.xml" value="0.36102564102564105" />
+        <entry key="..\:/AndroidStudioProjects/GESPOLY/app/src/main/res/layout/branch_item_layout.xml" value="0.36666666666666664" />
         <entry key="..\:/AndroidStudioProjects/GESPOLY/app/src/main/res/layout/drawer_head.xml" value="0.36102564102564105" />
         <entry key="..\:/AndroidStudioProjects/GESPOLY/app/src/main/res/layout/faculty_item_layout.xml" value="0.36666666666666664" />
-        <entry key="..\:/AndroidStudioProjects/GESPOLY/app/src/main/res/layout/fragment_about.xml" value="0.36102564102564105" />
+        <entry key="..\:/AndroidStudioProjects/GESPOLY/app/src/main/res/layout/fragment_about.xml" value="0.25" />
         <entry key="..\:/AndroidStudioProjects/GESPOLY/app/src/main/res/layout/fragment_faculty.xml" value="0.36102564102564105" />
         <entry key="..\:/AndroidStudioProjects/GESPOLY/app/src/main/res/layout/fragment_gallery.xml" value="0.36102564102564105" />
         <entry key="..\:/AndroidStudioProjects/GESPOLY/app/src/main/res/layout/fragment_home.xml" value="0.33" />
